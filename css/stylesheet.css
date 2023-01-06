@@ -15,21 +15,20 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 0 10%;
 }
 
-#color-circle-icons .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+/*#color-circle-icons .row {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
 
 .circle {
     height: 120px;
     width: 120px;
     border: 10px solid white;
     border-radius: 50%;
-    margin: 25px 25px;
+    /*margin: 25px 25px;*/
     font-family: anton, sans-serif;
     color: white;
     font-size: 20px;
