@@ -43,33 +43,62 @@
     </nav>
   </section> <!-- END of header company logo and navbar -->
 
-  <section> <!-- START of header text -->
-    <div id="header-text" class="container">
-        <p class="visual-design text-wrap text-center" style="font-family: anton, sans-serif">
-          VISUAL DESIGN & WEB DEVELOPMENT
-        </p>
-        <p class="city text-wrap text-center" style="font-family: anton, sans-serif">
-          FROM PARK CITY, UTAH
-        </p>
-    </div>
-  </section> <!-- END of header text -->
+<!--Roberts code Start-->
+<!--<header>-->
+<!--  <section> &lt;!&ndash; START of header text &ndash;&gt;-->
+<!--    <div id="header-text" class="container-fluid">-->
+<!--        <p class="visual-design text-wrap text-center" style="font-family: anton, sans-serif">-->
+<!--          VISUAL DESIGN & WEB DEVELOPMENT-->
+<!--        </p>-->
+<!--        <p class="city text-wrap text-center" style="font-family: anton, sans-serif">-->
+<!--          FROM PARK CITY, UTAH-->
+<!--        </p>-->
+<!--    </div>-->
+<!--  </section> &lt;!&ndash; END of header text &ndash;&gt;-->
 
-  <section id="color-circle-icons" class="container"> <!-- START color circle icons -->
-    <div class="row">
-      <div class="col-6 col-md-3">
-        <div id="red-circle" class="circle">DESIGN</div>
+<!--  <section id="color-circle-icons" class="container"> &lt;!&ndash; START color circle icons &ndash;&gt;-->
+<!--    <div class="row">-->
+<!--      <div class="col-6 col-md-3">-->
+<!--        <div id="red-circle" class="circle justify-content-end">DESIGN</div>-->
+<!--      </div>-->
+<!--      <div class="col-6 col-md-3">-->
+<!--        <div id="orange-circle" class="circle">DEVELOP</div>-->
+<!--      </div>-->
+<!--      <div class="col-6 col-md-3">-->
+<!--        <div id="green-circle" class="circle ">SUPPORT</div>-->
+<!--      </div>-->
+<!--      <div class="col-6 col-md-3">-->
+<!--        <div id="turquoise-circle" class="circle">HOST</div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section> &lt;!&ndash; END of color circle icons &ndash;&gt;-->
+<!--</header>-->
+<!-- Roberts Code End-->
+
+  <header class="container-fluid">
+
+    <h3 class="text-uppercase text-center">Visual Design & Web Development</h3>
+    <h5 class="text-uppercase text-center mt-4 mb-4">From Park City, Utah</h5>
+
+    <div class="circles d-flex justify-content-center">
+
+      <div class="d-flex justify-content-center flex-wrap">
+        <div class="circle red text-uppercase">
+          <h6>Design</h6>
+        </div>
+        <div class="circle yellow text-uppercase">
+          <h6>Develop</h6>
+        </div>
+        <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+        <div class="circle green text-uppercase">
+          <h6>Support</h6>
+        </div>
+        <div class="circle blue text-uppercase">
+          <h6>Host</h6>
+        </div>
       </div>
-      <div class="col-6 col-md-3">
-        <div id="orange-circle" class="circle">DEVELOP</div>
-      </div>
-      <div class="col-6 col-md-3">
-        <div id="green-circle" class="circle">SUPPORT</div>
-      </div>
-      <div class="col-6 col-md-3">
-        <div id="turquoise-circle" class="circle">HOST</div>
-      </div>
+
     </div>
-  </section> <!-- END of color circle icons -->
 
   <section > <!-- START hidden line -->
     <hr class="d-none d-md-block border border-1 border-secondary opacity-25% my-5 container">
@@ -111,7 +140,7 @@
           <img src="images/assets/images/man.jpg" width="100%" class="border border-5">
           <div class="d-flex flex-row">
             <div class="col-6">FEATURED PROJECT</div>
-            <div id="mini-circles" class="row offset-3 offset-md-2">
+            <div id="mini-circle" class="row offset-3 offset-md-2">
               <div id="mini-red-circle" class="mini-circle">D</div>
               <div id="mini-orange-circle" class="mini-circle">D</div>
               <div id="mini-green-circle" class="mini-circle">S</div>

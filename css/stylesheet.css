@@ -2,6 +2,14 @@ body {
     background: #F0F0F0
 }
 
+:root {
+    --red: #e6563b;
+    --green: #7cb06c;
+    --yellow: #EB9D3A;
+    --blue: #00aba9;
+}
+
+
 .visual-design {
     font-size: 68px;
 }
@@ -84,3 +92,8 @@ body {
 #mini-turquoise-circle {
     background: #00ABA9;
 }
+
+.red {background-color: var(--red);}
+.blue {background-color: var(--blue);}
+.yellow {background-color: var(--yellow);}
+.green {background-color: var(--green);}
