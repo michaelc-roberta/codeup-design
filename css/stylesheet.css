@@ -2,14 +2,6 @@ body {
     background: #F0F0F0
 }
 
-:root {
-    --red: #e6563b;
-    --green: #7cb06c;
-    --yellow: #EB9D3A;
-    --blue: #00aba9;
-}
-
-
 .visual-design {
     font-size: 68px;
 }
@@ -25,12 +17,6 @@ body {
     justify-content: center;
 }
 
-/*#color-circle-icons .row {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-/*}*/
-
 .circle {
     height: 120px;
     width: 120px;
@@ -44,22 +30,6 @@ body {
     padding-top: 7%;
 }
 
-#red-circle {
-    background: #E6563B
-}
-
-#orange-circle {
-    background: #EB9D3A;
-}
-
-#green-circle {
-    background: #7CB06C;
-}
-
-#turquoise-circle {
-    background: #00ABA9;
-}
-
 .row.featured-project {
     display: flex;
     flex-direction: row;
@@ -70,30 +40,9 @@ body {
     width: 25px;
     border: none;
     border-radius: 50%;
-    margin: 5px;
+    /*margin: 5px;*/
     font-family: anton, sans-serif;
     color: #000;
     font-size: 15px;
     text-align: center;
 }
-
-#mini-red-circle {
-    background: #E6563B
-}
-
-#mini-orange-circle {
-    background: #EB9D3A;
-}
-
-#mini-green-circle {
-    background: #7CB06C;
-}
-
-#mini-turquoise-circle {
-    background: #00ABA9;
-}
-
-.red {background-color: var(--red);}
-.blue {background-color: var(--blue);}
-.yellow {background-color: var(--yellow);}
-.green {background-color: var(--green);}
